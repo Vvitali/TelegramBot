@@ -1,10 +1,9 @@
 var TelegramBot = require('node-telegram-bot-api');
 
 var token = require("./.env");
-console.log("Token:");
 
 // Create a bot that uses 'polling' to fetch new updates
-const bot = new TelegramBot(token.key, { polling: true });
+const bot = new TelegramBot(token, { polling: true });
 
 // Matches "/echo [whatever]"
 bot.onText(/\/echo (.+)/, (msg, match) => {
