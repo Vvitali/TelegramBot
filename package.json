@@ -1,0 +1,29 @@
+{
+  "name": "mybot",
+  "version": "0.0.1",
+  "description": "Vitaliy's telegram bot",
+  "main": "server.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vvitali/TelegramBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "node.js"
+  ],
+  "author": "Vvitali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vvitali/TelegramBot/issues"
+  },
+  "homepage": "https://github.com/Vvitali/TelegramBot#readme"
+}
